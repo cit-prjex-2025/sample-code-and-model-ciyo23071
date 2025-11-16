@@ -14,7 +14,7 @@ void horn_warning(void) {
 }
 
 void horn_confirmation(void) {
-  const int duration = 100 * 1000;
+  const int duration = 100 * 1000;  
   ev3_speaker_set_volume(10);
 
   for(int i = 0; i < 2; i++) {
